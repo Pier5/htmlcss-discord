@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+
+header {
+    width: 100%;
+    background-color: #255ee9;
+}
+
+.head {
+    width: calc((100% - 1.5rem) /3);
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1rem;
+}
+
+.logo {
+    max-width: 6rem;
+}
+
+.menù ul {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.menù li {
+    display: inline-block;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 25%;
+    color: black;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+/* .container {
+    width: 60%;
+    margin: auto;
+} */
+
+.image {
+    width: 100%;
+    position: relative;
+}
+
+.jumbo {
+    background-size: cover;
+}
+
+.full-screen {
+    position: relative;
+}
+
+.section-top {
+    max-width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description {
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.one {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.two {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.section-bottom ul {
+    list-style: none;
+}
+
+.section-bottom li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.section-bottom {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+.download {
+    padding: .8rem 1.5rem;
+    border-radius: 25%;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.download.mac {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.download.browser {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+
+i{
+    margin-right: .5rem;
+    font-size: .9rem;
+}
+
+
+
+
+
+

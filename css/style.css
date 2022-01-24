@@ -53,11 +53,6 @@ a {
     font-weight: bold;
 }
 
-/* .container {
-    width: 60%;
-    margin: auto;
-} */
-
 .image {
     width: 100%;
 }
@@ -124,7 +119,6 @@ a {
 .download.mac {
     background-color: white;
     color: black;
-    text-align: left;
     font-size: 1rem;
 }
 
@@ -140,16 +134,9 @@ i{
 }
 
 .content {
-    margin: 0px auto;
+    margin: 0 auto;
     width: 80%;
-}
-.content.two {
-    margin-top: 10%;
-}
-
-
-img {
-  width: 30rem;
+    height: 500px;
 }
 
 .col {
@@ -157,38 +144,121 @@ img {
 }
 
 .col.col-left {
-    width: 65%;
-    padding-left: 80px;
+    width: 60%;
+    position: relative;
 }
 
-.col.col-right{
-    width: calc((100% - 65%) /2);
+.col.col-right {
+    width: calc((100% - 60%) /2);
+    position: relative;
+    
 }
 
-.main-text {
-    color: black;
+.image-1 {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
 }
 
 .main-text.top {
     font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    vertical-align: middle;
+    margin-bottom: 10px;
 }
 
 .main-text.bottom {
-    font-size: .9rem;
-    font-weight: lighter;
+    font-size: .8rem;
+    line-height: 1.5rem;
 }
 
-/* .col.col-left-middle {
-    width: 35%;
-    padding-left: 80px;
+.content-two {
+    margin: 0 auto;
+    width: 80%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .col.col-right-middle {
+    position: relative;
     width: calc((100% - 35%) /2);
-    padding-left: 5rem;
-} */
+}
+
+.col.col-left-middle {
+    position: relative;
+    width: 35%;
+}
+
+.image-2 {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -10%);
+}
+
+.text-two {
+    margin: 0 auto;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-15%, -10%);
+}
+
+.col.col-left-bottom {
+    position: relative;
+    width: 55%;
+}
+
+.col.col-right-bottom {
+    position: relative;
+    width: calc((100% - 55%) /2);
+}
+
+.image-3 {
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+.text-three {
+    margin: 0 auto;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -45%);
+}
+
+.container {
+    text-align: center;
+}
+
+.spot {
+    margin: 0 auto;
+    width: 65%;
+}
+
+h2 {
+    font-size: 1.2rem;
+    background-image: url(../img/stars.svg);
+    background-size: 40%;
+}
+
+.download.mac-two {
+    margin: 25px;
+    background-color: #8abce7;
+}
 
 
 

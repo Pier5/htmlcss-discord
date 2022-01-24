@@ -6,7 +6,7 @@
 
 html {
     font-family: sans-serif;
-    line-height: 1.5rem;
+    line-height: 1.2;
 }
 
 header {
@@ -60,7 +60,6 @@ a {
 
 .image {
     width: 100%;
-    position: relative;
 }
 
 .jumbo {
@@ -140,7 +139,56 @@ i{
     font-size: .9rem;
 }
 
+.content {
+    margin: 0px auto;
+    width: 80%;
+}
+.content.two {
+    margin-top: 10%;
+}
 
+
+img {
+  width: 30rem;
+}
+
+.col {
+    display: inline-block;
+}
+
+.col.col-left {
+    width: 65%;
+    padding-left: 80px;
+}
+
+.col.col-right{
+    width: calc((100% - 65%) /2);
+}
+
+.main-text {
+    color: black;
+}
+
+.main-text.top {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    vertical-align: middle;
+}
+
+.main-text.bottom {
+    font-size: .9rem;
+    font-weight: lighter;
+}
+
+/* .col.col-left-middle {
+    width: 35%;
+    padding-left: 80px;
+}
+
+.col.col-right-middle {
+    width: calc((100% - 35%) /2);
+    padding-left: 5rem;
+} */
 
 
 

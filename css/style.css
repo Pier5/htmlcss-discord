@@ -43,7 +43,8 @@ a {
 }
 
 .button {
-    padding: 10px;
+    padding: .6em;
+    line-height: .6em;
     background-color: white;
     text-decoration: none;
     border-radius: 25%;
@@ -108,8 +109,9 @@ a {
 }
 
 .download {
-    padding: .8rem 1.5rem;
-    border-radius: 25%;
+    padding: 1em;
+    line-height: 1.5em;
+    border-radius: 10em;
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
@@ -135,7 +137,7 @@ i{
 
 .content {
     margin: 0 auto;
-    width: 80%;
+    /* width: 80%; */
     height: 500px;
 }
 
@@ -180,10 +182,11 @@ i{
 
 .content-two {
     margin: 0 auto;
-    width: 80%;
+    /* width: 80%; */
     height: 500px;
     margin-top: 10px;
     margin-bottom: 20px;
+    background-color: #f6f6f6;
 }
 
 .col.col-right-middle {
@@ -228,7 +231,7 @@ i{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -35%);
+    transform: translate(-50%, -15%);
 }
 
 .text-three {
@@ -237,11 +240,12 @@ i{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-20%, -45%);
+    transform: translate(-45%, -20%);
 }
 
 .container {
     text-align: center;
+    background-color: #f6f6f6;
 }
 
 .spot {
@@ -249,15 +253,91 @@ i{
     width: 65%;
 }
 
-h2 {
+.slogan {
     font-size: 1.2rem;
     background-image: url(../img/stars.svg);
-    background-size: 40%;
+    background-size: 35%;
 }
 
 .download.mac-two {
     margin: 25px;
     background-color: #8abce7;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #23272a;
+}
+
+.foot {
+    margin: 40px auto;
+    width: 70%;
+    padding-top: 40px;
+}
+
+.ita {
+    width: 18px;
+}
+
+.column.icon {
+    width: 30%;
+    /* float: left; */
+}
+
+.column .first {
+    color: #7fb2e3;
+}
+
+ul {
+    list-style: none;
+}
+
+.column li {
+    color: white;
+    line-height: 2rem;
+}
+
+.column {
+    width: calc((100% - 30%) /5);
+    display: inline-block;
+    float: left;
+}
+
+.item {
+    color: white;
+    margin-right: 5px;
+}
+
+.footer::after {
+    display: '';
+    display: table;
+    clear: both;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 100px;
+    background-color: #23272a;
+    border-top: 1px solid #8abce7;;
+}
+
+.logo-foot {
+    padding-top: 20px;
+    float: left;
+    margin-left: 40px;
+}
+
+.sign {
+    float: right;
+    margin-right: 50px;
+    background-color: #8abce7;;
+    padding: 1em;
+    line-height: 1em;
+    border-radius: 10em;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
 }
 
 
